@@ -99,7 +99,7 @@ var visua11yData = {
             [{   
                 type: "colorcontrast",
                 scanTags: {type: "rule", values: ["color-contrast"]},
-                icon: "fa-images",
+                icon: "fa-palette",
                 ruleText: [],
                 scanData : {},
                 passes: 0,
@@ -108,7 +108,7 @@ var visua11yData = {
             {   
                 type: "videos",
                 scanTags: {type: "rule", values: ["video-description"]},
-                icon: "fa-link",
+                icon: "fa-video",
                 ruleText: [],
                 scanData : {},
                 passes: 0,
@@ -117,7 +117,7 @@ var visua11yData = {
             {
                 type: "lang",
                 scanTags: {type: "rule", values: ["valid-lang"]},
-                icon: "fa-heading",
+                icon: "fa-language",
                 ruleText: [],
                 scanData : {},
                 passes: 0,
