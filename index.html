@@ -1,1 +1,31 @@
-My Page
+<!doctype html>
+<html>
+<head>
+	<meta charset='utf8'>
+	<meta name='viewport' content='width=device-width'>
+
+    <title>Visua11y - Accesibility testing</title>
+    <style>
+        .bookmarklet {
+            margin: 10px;
+            border: 4px solid black;
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Installation</h1>
+    <div>
+            Visua11y is available as a bookmarklet and can be used in any desktop browser. 
+            Simply drag the button below into your bookmarks bar and then click it to add visua11y to the current page.
+    </div>
+	<div style="padding: 25px;">
+		<a class="bookmarklet" href="javascript:(function(){visua11y=document.createElement('script'),visua11y.type='text/javascript',visua11y.src='https://vedrag.github.io/visua11ysite/bundle.js?d='+Date.now(),document.getElementsByTagName('head')[0].appendChild(visua11y)})();" onclick="javascript:return false;">
+			Visua11y
+		</a>
+	</div>
+</body>
+</html>
